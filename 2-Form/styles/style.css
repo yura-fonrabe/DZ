@@ -1,13 +1,13 @@
 body {
     background: linear-gradient(0deg, #F39494, #F39494),
-            linear-gradient(243.43deg, #FFA5A5 32.96%, rgba(255, 255, 255, 0) 82.03%),
-            linear-gradient(243.18deg, #FDC5C5 25.45%, rgba(242, 152, 222, 0) 100%);
+        linear-gradient(243.43deg, #FFA5A5 32.96%, rgba(255, 255, 255, 0) 82.03%),
+        linear-gradient(243.18deg, #FDC5C5 25.45%, rgba(242, 152, 222, 0) 100%);
 }
 
 main {
     background-color: #fffefe;
     border-radius: 10px;
-    font-family: "Open Sans", serif; 
+    font-family: "Open Sans", serif;
 }
 
 h1 {

@@ -1,0 +1,49 @@
+body {
+    background: linear-gradient(180deg, #374151 0%, #111827 100%);
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+button{
+    background: #1F293799;
+    font-size: 16px;
+    line-height: 120%;
+    color: #fff;
+}
+
+h1 {
+    font-size: 24px;
+    line-height: 120%;
+    text-align: center;
+}
+
+.frontend {
+    font-size: 14px;
+    line-height: 120%;
+    opacity: 60%;
+}
+
+.text_1 {
+    font-size: 20px;
+    line-height: 32px;
+}
+.text_2 {
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.about_author {
+    font-size: 16px;
+    line-height: 28px;
+}
+
+footer {
+    background: #121928;
+    font-size: 16px;
+    line-height: 120%;
+    text-align: center;
+    opacity: 60%;
+}
