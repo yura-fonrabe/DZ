@@ -1,35 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Регистрация</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./styles/style.css">
 </head>
+
 <body>
     <main>
         <h1>Регистрация</h1>
-        <p>Уже есть аккаунт?<a href="#">Войти</a></p>
-        <p>Моя компания</p>
+        <p class="account">Уже есть аккаунт?<a href="#">Войти</a></p>
+        <p class="company">Моя компания</p>
         <form action="#">
             <div>
-                <label >
+                <label>
                     <input type="text" name="first_name" placeholder="Имя" required>
-                </label>               
-                <label>                    
+                </label>
+                <label>
                     <input type="text" name="surname" placeholder="Фамилия" required>
                 </label>
             </div>
             <div>
                 <label for="email"></label>
                 <input type="email" name="email" id="email" placeholder="E-mail" required>
-            </div>   
+            </div>
             <button type="submit">Зарегистрироваться <img src="./images/Стрелка.png" alt="стрелка"></button>
             <div>
-                <label for="checkbox">Я прочитал и принимаю</label>
-                <input type="checkbox" name="checkbox" id="checkbox" >
-                 <a href="#">Условия использования</a>
+                <label class="conditions">
+                    <input type="checkbox" name="checkbox" id="checkbox">Я прочитал и принимаю
+                    <label>
+                        <a href="#">Условия использования</a>
             </div>
         </form>
-    </main>   
+    </main>
 </body>
+
 </html>

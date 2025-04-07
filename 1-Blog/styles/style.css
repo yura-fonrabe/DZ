@@ -1,0 +1,106 @@
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('../fonts/sourcesansprosemibold.woff2') format('woff2'), 
+    url('../fonts/sourcesansprosemibold.woff') format('woff');
+}
+
+body {
+    background: linear-gradient(180deg, #374151 0%, #111827 100%);
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    margin: 0 0 80px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+#search{
+    background: #1F2937;
+    font-size: 16px;
+    line-height: 100%;
+    color: #fff;
+    opacity: 60%;
+    border: none;
+    border-radius: 100px;
+    width: 224px;
+    height: 40px;
+}
+
+h1 {
+    font-size: 24px;
+    line-height: 120%;
+    text-align: center;
+    margin: 0 0 30px ;
+}
+
+.frontend {
+    font-size: 14px;
+    line-height: 120%;
+    opacity: 60%;
+    text-align: center;
+    margin: 0 0 14px 0;
+}
+
+.info_section{
+    margin: 0 0 28px 0;
+    text-align: center;
+}
+
+.paint {
+    text-align: center;
+    margin: 0 0 60px 0;
+}
+
+.text_1 {
+    font-size: 20px;
+    line-height: 32px;
+    width: 700px;
+    height: 250px;
+    margin: 0 auto 50px;
+}
+.text_2 {
+    font-size: 16px;
+    line-height: 30px;
+    width: 700px;
+    height: 200;
+    margin: 0 auto 30px;
+}
+
+.about_author {
+    font-size: 16px;
+    line-height: 28px;
+}
+
+footer {
+    background: #121928;
+    font-size: 16px;
+    line-height: 120%;
+    text-align: center;
+    opacity: 60%;
+}
+
+a {
+    text-decoration: none;
+}
+.span1 {
+    padding: 6px 12px;
+    display: inline-block;
+    color: white;
+    font-family: 'Source Sans Pro';
+    font-weight: 600;
+    font-size: 18px;
+    font-style: normal;
+    background: #4b5563;
+    border-radius: 5px;
+}
+
+.span2 {
+    color: #fff;
+}
